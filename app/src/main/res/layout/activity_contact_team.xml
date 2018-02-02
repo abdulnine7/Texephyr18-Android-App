@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contact_team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="15dp"
+    tools:context="com.android.gifts.bottomnavigation.ContactTeam">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/mail_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/mail_name"
+                    android:text="Texephyr Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/mail_email"
+                    android:text="info@texephyr.in"
+                    android:autoLink="email"
+                    android:linksClickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/mail_name"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mail_card"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp" />
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/pratiksha_card"
+            android:layout_gravity="center"
+            android:layout_below="@id/space"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/pratiksha_name"
+                    android:text="Pratiksha Panchbhai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/pratiksha_number"
+                    android:text="+91 8208136269"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/pratiksha_name"
+                    />
+
+                <TextView
+                    android:id="@+id/pratiksha_email"
+                    android:text="panchbhai17@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/pratiksha_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nidhi_card"
+            android:layout_below="@id/pratiksha_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nidhi_name"
+                    android:text="Nidhi Khobragade"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/nidhi_number"
+                    android:text="+91 7385699268"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/nidhi_name"
+                    />
+
+                <TextView
+                    android:id="@+id/nidhi_email"
+                    android:text="knidhi9114@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/nidhi_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nancy_card"
+            android:layout_below="@id/nidhi_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/nancy_name"
+                    android:text="Nancy Das"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:id="@+id/nancy_number"
+                    android:text="+91 9763881559"
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/nancy_name"
+                    />
+
+                <TextView
+                    android:id="@+id/nancy_email"
+                    android:text="nancydas12@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/nancy_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/chinmay_card"
+            android:layout_below="@id/nancy_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/chinmay_name"
+                    android:text="Chinmay Rane"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:id="@+id/chinmay_number"
+                    android:text="+91 9503425810"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/chinmay_name"
+                    />
+
+                <TextView
+                    android:id="@+id/chinmay_email"
+                    android:text="chinmayurane@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/chinmay_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/anshul_card"
+            android:layout_below="@id/chinmay_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/anshul_name"
+                    android:text="Anshul Lavankar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:id="@+id/anshul_number"
+                    android:text="+91 98600 91296"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/anshul_name"
+                    />
+
+                <TextView
+                    android:id="@+id/anshul_email"
+                    android:text="knidhi9114@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/anshul_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/kushal_card"
+            android:layout_below="@id/anshul_card"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="1dp">
+
+
+            <RelativeLayout
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/kushal_name"
+                    android:text="Kushal Agrawal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    />
+
+                <TextView
+                    android:autoLink="phone"
+                    android:linksClickable="true"
+                    android:id="@+id/kushal_number"
+                    android:text="+91 7304595867"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/kushal_name"
+                    />
+
+                <TextView
+                    android:id="@+id/kushal_email"
+                    android:text="khushalagarwal9@gmail.com"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_below="@id/kushal_number"
+                    />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+</ScrollView>

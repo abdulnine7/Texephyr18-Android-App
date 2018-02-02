@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_development_team"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.android.gifts.bottomnavigation.DevelopmentTeam">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/abdul_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="1dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/abdul_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Abdul Noushad Sheikh"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/abdul_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/abdul_name"
+                android:text="+91 9766294462"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/abdul_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/abdul_number"
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:text="bitwiseabdul@gmail.com"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/vallabh_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/abdul_card"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="1dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/vallabh_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vallabh Shevate"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/vallabh_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vallabh_name"
+                android:text="+91 8788995192"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/vallabh_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/vallabh_number"
+
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:text="micronic911@gmail.com"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

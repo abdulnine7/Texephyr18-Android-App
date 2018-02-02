@@ -1,0 +1,37 @@
+List<Workshop> mech_workshop;
+        List<Workshop> comp_workshop;
+
+        comp_workshop = new ArrayList<>();
+
+        comp_workshop.add(new Workshop("Workshop Junior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Flagship event of computer department\n" +
+                "event of computer department\n" +
+                "of computer department\n" +
+                "Flagship event of computer department"));
+        comp_workshop.add(new Workshop("Workshop Senior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Flagship event of computer department\n" +
+                "event of computer department\n" +
+                "of computer department\n" +
+                "Flagship event of computer department"));
+        comp_workshop.add(new Workshop("Workshop Trinior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Flagship event of computer department\n" +
+                "event of computer department\n" +
+                "of computer department\n" +
+                "Flagship event of computer department"));
+
+
+        mech_workshop = new ArrayList<>();
+
+        mech_workshop.add(new Workshop("Workshop Junior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Come participate in this relay challenge\n" +
+                "participate in this relay challenge\n" +
+                "in this relay challenge\n" +
+                "Come participate in this relay challenge"));
+        mech_workshop.add(new Workshop("Workshop Senior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Come participate in this relay challenge\n" +
+                "participate in this relay challenge\n" +
+                "in this relay challenge\n" +
+                "Come participate in this relay challenge"));
+        mech_workshop.add(new Workshop("Workshop Trinior", "First prize: Rs. 10000\nSecond prize: Rs. 8000", "Come participate in this relay challenge\n" +
+                "participate in this relay challenge\n" +
+                "in this relay challenge\n" +
+                "Come participate in this relay challenge"));
+
+
+        workshops.put("1. Computer Department", comp_workshop);
+        workshops.put("2. Mechanical Department", mech_workshop);

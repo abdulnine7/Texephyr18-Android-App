@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/activity_main_bg"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/aptex"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:padding="10dp"
+            app:srcCompat="@drawable/tx_header" />
+
+        <ImageView
+            android:id="@+id/apvector"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/aptex"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/tx_glass" />
+    </RelativeLayout>
+
+</RelativeLayout>

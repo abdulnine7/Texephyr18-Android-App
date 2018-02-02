@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Texephyr</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!-- Strings related to MORE's list view -->
+    <string-array name="moreTabs">
+        <item>Volunteer Login</item>
+        <item>Development Team</item>
+        <item>Official Website</item>
+        <item>Contact Us</item>
+        <item>Campus Map</item>
+    </string-array>
+
+    <string name="title_activity_events_tabbed">EventsTabbedActivity</string>
+    <string name="title_activity_volunteer_login">Volunteer Login</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+</resources>
