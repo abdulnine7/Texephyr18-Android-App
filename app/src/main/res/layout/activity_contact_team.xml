@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_contact_team"
     android:layout_width="match_parent"
@@ -239,7 +240,7 @@
         </android.support.v7.widget.CardView>
         <android.support.v7.widget.CardView
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/anshul_card"
+            android:id="@+id/kushal_card"
             android:layout_below="@id/chinmay_card"
             android:layout_gravity="center"
             android:layout_margin="5dp"
@@ -254,53 +255,8 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/anshul_name"
-                    android:text="Anshul Lavankar"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    />
-
-                <TextView
-                    android:autoLink="phone"
-                    android:linksClickable="true"
-                    android:id="@+id/anshul_number"
-                    android:text="+91 98600 91296"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:layout_below="@id/anshul_name"
-                    />
-
-                <TextView
-                    android:id="@+id/anshul_email"
-                    android:text="knidhi9114@gmail.com"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:layout_below="@id/anshul_number"
-                    />
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
-        <android.support.v7.widget.CardView
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:id="@+id/kushal_card"
-            android:layout_below="@id/anshul_card"
-            android:layout_gravity="center"
-            android:layout_margin="5dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            card_view:cardCornerRadius="1dp">
-
-
-            <RelativeLayout
-                android:layout_margin="5dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-
-                <TextView
                     android:id="@+id/kushal_name"
-                    android:text="Kushal Agrawal"
+                    android:text="Khushal Agrawal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
