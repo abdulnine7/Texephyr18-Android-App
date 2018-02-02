@@ -1,7 +1,7 @@
-package com.android.gifts.bottomnavigation;
+package com.abdul.app.texephyr;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 /**
  * @author Abdul Noushad (abdulnine7)

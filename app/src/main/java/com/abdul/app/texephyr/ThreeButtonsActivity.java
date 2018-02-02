@@ -1,12 +1,11 @@
-package com.android.gifts.bottomnavigation;
+package com.abdul.app.texephyr;
 
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
 
-import com.android.gifts.bottomnavigation.events.FragmentEvent;
-import com.android.gifts.bottomnavigation.workshops.FragmentWorkshop;
+import com.abdul.app.texephyr.events.FragmentEvent;
+import com.abdul.app.texephyr.workshops.FragmentWorkshop;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnMenuTabSelectedListener;
 

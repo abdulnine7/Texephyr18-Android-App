@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.gifts.bottomnavigation">
+    package="com.abdul.app.texephyr">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -15,7 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="com.abdul.app.texephyr.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,24 +24,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ThreeButtonsActivity"
+            android:name="com.abdul.app.texephyr.ThreeButtonsActivity"
             android:label="Home"
             android:theme="@style/AppTheme.ActionBar" />
         <activity
-            android:name=".DevelopmentTeam"
+            android:name="com.abdul.app.texephyr.DevelopmentTeam"
             android:label="App Development Team"
             android:theme="@style/AppTheme.ActionBar" />
         <activity
-            android:name=".events.EventActivity"
+            android:name="com.abdul.app.texephyr.events.EventActivity"
             android:label="Event Details"
             android:theme="@style/AppTheme.ActionBar" />
         <activity
-            android:name=".workshops.WorkshopActivity"
+            android:name="com.abdul.app.texephyr.workshops.WorkshopActivity"
             android:label="Workshop Details"
             android:theme="@style/AppTheme.ActionBar" />
-        <activity android:name=".WebActivity" />
+        <activity android:name="com.abdul.app.texephyr.WebActivity" />
         <activity
-            android:name=".ContactTeam"
+            android:name="com.abdul.app.texephyr.ContactTeam"
             android:label="Contact Support Team"
             android:theme="@style/AppTheme.ActionBar" />
     </application>

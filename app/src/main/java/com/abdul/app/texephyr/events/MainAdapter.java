@@ -1,4 +1,4 @@
-package com.android.gifts.bottomnavigation.workshops;
+package com.abdul.app.texephyr.events;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter;
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder;
-import com.android.gifts.bottomnavigation.R;
+import com.abdul.app.texephyr.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -23,17 +23,17 @@ import java.util.Map;
 @SuppressLint("DefaultLocale")
 class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH> {
 
-    private final Map<String, List<Workshop>> events;
+    private final Map<String, List<Event>> events;
     private final List<String> depts;
     private final Context context;
 
-    MainAdapter(Context context, Map<String, List<Workshop>> events) {
+    MainAdapter(Context context, Map<String, List<Event>> events) {
         this.context = context;
         this.events = events;
         this.depts = new ArrayList<>(events.keySet());
 
-//        collapseAllSections();
         Collections.sort(this.depts);
+        collapseAllSections();
     }
 
     @Override
@@ -53,6 +53,7 @@ class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH> {
         holder.caret.setImageResource(expanded ? R.drawable.ic_collapse : R.drawable.ic_expand);
     }
 
+
     @Override
     public void onBindFooterViewHolder(MainVH holder, int section) {
         holder.title.setText(String.format("Section footer %d", section));
@@ -60,9 +61,9 @@ class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH> {
 
     @Override
     public void onBindViewHolder(MainVH holder, int section, int relativePosition, int absolutePosition) {
-        Workshop workshop = events.get(depts.get(section)).get(relativePosition);
-        holder.title.setText(workshop.title);
-        holder.text.setText(workshop.shortText);
+        Event event = events.get(depts.get(section)).get(relativePosition);
+        holder.title.setText(event.title);
+        holder.text.setText(event.shortText);
     }
 
     @Override
@@ -115,11 +116,11 @@ class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH> {
             } else {
                 int section = getRelativePosition().section();
                 int relapos = getRelativePosition().relativePos();
-                Workshop workshop = events.get(depts.get(section)).get(relapos);
+                Event event = events.get(depts.get(section)).get(relapos);
 
-                context.startActivity(new Intent(context, WorkshopActivity.class)
-                        .putExtra("title", workshop.title)
-                        .putExtra("text", workshop.text));
+                context.startActivity(new Intent(context, EventActivity.class)
+                        .putExtra("title", event.title)
+                        .putExtra("text", event.text));
 
             }
         }

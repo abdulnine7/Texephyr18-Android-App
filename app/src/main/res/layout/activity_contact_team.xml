@@ -9,7 +9,7 @@
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
     android:paddingTop="15dp"
-    tools:context="com.android.gifts.bottomnavigation.ContactTeam">
+    tools:context="com.android.gifts.bottomnavigation.com.abdul.gifts.bottomnavigation.ContactTeam">
 
     <RelativeLayout
         android:layout_width="match_parent"

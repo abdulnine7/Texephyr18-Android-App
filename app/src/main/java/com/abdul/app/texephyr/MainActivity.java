@@ -1,10 +1,9 @@
-package com.android.gifts.bottomnavigation;
+package com.abdul.app.texephyr;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 
 /**
  * @author Abdul Noushad (abdulnine7)

@@ -1,21 +1,20 @@
-package com.android.gifts.bottomnavigation.events;
+package com.abdul.app.texephyr.workshops;
 
 
 import android.app.Fragment;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import com.android.gifts.bottomnavigation.R;
+import com.abdul.app.texephyr.R;
 
 
 /**
  * @author Abdul Noushad (abdulnine7)
  */
-public class FragmentEvent extends Fragment {
+public class FragmentWorkshop extends Fragment {
 
     private MainAdapter adapter;
     private boolean hideEmpty;
@@ -24,9 +23,7 @@ public class FragmentEvent extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
-
-        return inflater.inflate(R.layout.event_fragment, container, false);
+        return inflater.inflate(R.layout.workshop_fragment, container, false);
     }
 
     @Override
@@ -34,7 +31,7 @@ public class FragmentEvent extends Fragment {
         super.onViewCreated(view, savedInstanceState);
 
         RecyclerView recycler = (RecyclerView) view.findViewById(R.id.list);
-        adapter = new MainAdapter(getActivity(), Event.getEvents());
+        adapter = new MainAdapter(getActivity(), Workshop.getWorkshops());
         LinearLayoutManager manager =
                 new LinearLayoutManager(getActivity());
         recycler.setLayoutManager(manager);

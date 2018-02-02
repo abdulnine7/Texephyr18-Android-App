@@ -8,7 +8,7 @@
     android:paddingLeft="5dp"
     android:paddingRight="5dp"
     android:paddingTop="5dp"
-    tools:context="com.android.gifts.bottomnavigation.DevelopmentTeam">
+    tools:context="com.android.gifts.bottomnavigation.com.abdul.gifts.bottomnavigation.DevelopmentTeam">
 
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:id="@+id/abdul_card"

@@ -1,10 +1,11 @@
-package com.android.gifts.bottomnavigation.events;
+package com.abdul.app.texephyr.events;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
-import com.android.gifts.bottomnavigation.R;
+
+import com.abdul.app.texephyr.R;
 
 /**
  * @author Abdul Noushad (abdulnine7)
