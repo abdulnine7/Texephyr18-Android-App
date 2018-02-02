@@ -49,9 +49,9 @@ public class WebActivity extends AppCompatActivity {
         });
 
         if (action == 0)
-            webView.loadUrl("http://admin.texephyr.in/volunteer_login.html");
+            webView.loadUrl("https://admin.texephyr.in/volunteer_login.html");
         else
-            webView.loadUrl("http://texephyr.in");
+            webView.loadUrl("https://texephyr.in");
     }
 
     private class MyBrowser extends WebViewClient {
