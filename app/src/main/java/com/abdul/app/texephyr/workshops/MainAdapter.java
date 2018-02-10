@@ -8,9 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.abdul.app.texephyr.R;
 import com.afollestad.sectionedrecyclerview.SectionedRecyclerViewAdapter;
 import com.afollestad.sectionedrecyclerview.SectionedViewHolder;
-import com.abdul.app.texephyr.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -32,7 +33,7 @@ class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH> {
         this.events = events;
         this.depts = new ArrayList<>(events.keySet());
 
-//        collapseAllSections();
+        collapseAllSections();
         Collections.sort(this.depts);
     }
 

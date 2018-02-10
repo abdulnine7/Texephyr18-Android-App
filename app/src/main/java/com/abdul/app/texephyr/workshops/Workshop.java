@@ -11,12 +11,22 @@ import java.util.Map;
 public class Workshop {
 
     private final static Map<String, List<Workshop>> workshops = new HashMap<>();
+    public String title;
+    public String shortText;
+    public String text;
+
+    public Workshop(String title, String shortText, String text) {
+        this.title = title;
+        this.shortText = shortText;
+        this.text = text;
+    }
 
     public static Map<String, List<Workshop>> getWorkshops() {
         workshops.clear();
 
         List<Workshop> entc_workshop;
         List<Workshop> comp_workshop;
+        List<Workshop> mech_workshop;
 
         comp_workshop = new ArrayList<>();
 //        comp_workshop.add(new Workshop("", "", ""));
@@ -97,19 +107,33 @@ public class Workshop {
                         "\n"));
 //        entc_workshop.add(new Workshop("", "", ""));
 
+        mech_workshop = new ArrayList<>();
+        mech_workshop.add(new Workshop("3D Printing Workshop", "Build Your Own 3D Printer",
+                "\nImagine\n" +
+                        "Design\n" +
+                        "Print\n" +
+                        "\n" +
+                        "What is 3D Printing?\n" +
+                        "3D printing is a process of making three dimensional solid objects from a digital file.\n" +
+                        "\n" +
+                        "What are the applications of 3D Printing?\n" +
+                        "The possibilities of 3D Printing for your product development and manufacturing are endless. Print everything from concept models to robotic arms. The sky is the limit. \n" +
+                        "Anything you imagine, you can print.\n" +
+                        "\n" +
+                        "Learn How to Build a 3D Printer of your own, Designing, Image Processing, Actual Printing and Problem Solving.\n" +
+                        "\n" +
+                        "Date: 11th - 12th March\n" +
+                        "Venue: Department of Mechanical Engineering, MIT, Kothrud, Pune\n" +
+                        "Workshop costs: 1100/- for 2 days\n" +
+                        "\n" +
+                        "For any queries contact\n" +
+                        "Nidhi: 7385699268\n" +
+                        "Pratik: 97645772265\n\n"));
+
         workshops.put("1. Computer Department", comp_workshop);
         workshops.put("2. ENTC Department", entc_workshop);
+        workshops.put("3. Mechanical Department", mech_workshop);
 
         return workshops;
-    }
-
-    public String title;
-    public String shortText;
-    public String text;
-
-    public Workshop(String title, String shortText, String text) {
-        this.title = title;
-        this.shortText = shortText;
-        this.text = text;
     }
 }

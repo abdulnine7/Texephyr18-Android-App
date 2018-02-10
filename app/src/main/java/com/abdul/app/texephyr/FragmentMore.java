@@ -56,11 +56,6 @@ public class FragmentMore extends ListFragment implements AdapterView.OnItemClic
             startActivityForResult(myIntent, 0);
         }
         if (position == 3) {
-            myIntent = new Intent(view.getContext(), ContactTeam.class);
-            startActivityForResult(myIntent, 0);
-        }
-
-        if (position == 4) {
             Uri gmmIntentUri = Uri.parse("geo:18.5181,73.8150?q=Maharashtra Institute Of Technology, Pune");
             myIntent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
             myIntent.setPackage("com.google.android.apps.maps");
@@ -68,7 +63,10 @@ public class FragmentMore extends ListFragment implements AdapterView.OnItemClic
                 startActivity(myIntent);
             }
         }
-
+        if (position == 4) {
+            myIntent = new Intent(view.getContext(), ContactTeam.class);
+            startActivityForResult(myIntent, 0);
+        }
 
     }
 

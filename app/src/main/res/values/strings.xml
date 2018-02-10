@@ -12,8 +12,8 @@
         <item>Volunteer Login</item>
         <item>Development Team</item>
         <item>Official Website</item>
-        <item>Contact Us</item>
         <item>Campus Map</item>
+        <item>Contact Us</item>
     </string-array>
 
     <string name="title_activity_events_tabbed">EventsTabbedActivity</string>
