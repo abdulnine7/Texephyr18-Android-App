@@ -39,7 +39,7 @@
 
                 <TextView
                     android:id="@+id/mail_email"
-                    android:text="info@texephyr.in"
+                    android:text="texephyr.mitpune@gmail.com"
                     android:autoLink="email"
                     android:linksClickable="true"
                     android:layout_width="wrap_content"

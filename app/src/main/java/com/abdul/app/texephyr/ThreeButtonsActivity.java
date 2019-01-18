@@ -19,7 +19,7 @@ public class ThreeButtonsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_three_buttons);
 
-        getSupportActionBar().setTitle("MIT Texephyr '18");
+        getSupportActionBar().setTitle("MIT WPU Texephyr '19");
 
         getFragmentManager().beginTransaction().replace(R.id.frag_container, new FragmentEvent()).commit();
 

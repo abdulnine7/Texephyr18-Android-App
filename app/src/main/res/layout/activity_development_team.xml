@@ -46,13 +46,13 @@
                 android:layout_below="@id/abdul_number"
                 android:autoLink="email"
                 android:linksClickable="true"
-                android:text="bitwiseabdul@gmail.com"
+                android:text="me@abdul.co.in"
                 android:textSize="15sp" />
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
     <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:id="@+id/vallabh_card"
+        android:id="@+id/sarthak_card"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/abdul_card"
@@ -67,29 +67,115 @@
             android:layout_margin="5dp">
 
             <TextView
-                android:id="@+id/vallabh_name"
+                android:id="@+id/sarthak_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Vallabh Shevate"
+                android:text="Sarthak Bohra"
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/vallabh_number"
+                android:id="@+id/sarthak_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/vallabh_name"
-                android:text="+91 8788995192"
+                android:layout_below="@id/sarthak_name"
+                android:text="+91 98929 25678"
                 android:textSize="15sp" />
 
             <TextView
-                android:id="@+id/vallabh_email"
+                android:id="@+id/sarthak_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/vallabh_number"
+                android:layout_below="@id/sarthak_number"
 
                 android:autoLink="email"
                 android:linksClickable="true"
-                android:text="micronic911@gmail.com"
+                android:text="bohrasarthak@gmail.com"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/shrutika_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sarthak_card"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="1dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/shrutika_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shrutika Singh"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/shrutika_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shrutika_name"
+                android:text="+91 82909 57945"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/shrutika_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/shrutika_number"
+
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:text="shrutika051220@gmail.com"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/indira_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shrutika_card"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="1dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/indira_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indira Pimpalkhare"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/indira_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/indira_name"
+                android:text="+91 96043 72622"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/indira_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/indira_number"
+
+                android:autoLink="email"
+                android:linksClickable="true"
+                android:text="indira.pimpalkhare@gmail.com"
                 android:textSize="15sp" />
         </RelativeLayout>
     </android.support.v7.widget.CardView>

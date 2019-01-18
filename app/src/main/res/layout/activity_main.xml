@@ -10,15 +10,26 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/activity_main_bg"
-        android:layout_alignParentTop="true">
+        android:layout_alignParentTop="true"
+        android:background="@drawable/activity_main_bg">
 
-        <ImageView
+        <TextView
             android:id="@+id/aptex"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
             android:padding="10dp"
-            app:srcCompat="@drawable/tx_header" />
+            android:paddingTop="5dp"
+            android:shadowColor="#fff1f1"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="4"
+            android:text="MIT WPU\nTexephyr\n2k19"
+            android:textAlignment="center"
+            android:textColor="#404040"
+            android:textIsSelectable="false"
+            android:textSize="30dp"
+            android:textStyle="italic" />
 
         <ImageView
             android:id="@+id/apvector"
